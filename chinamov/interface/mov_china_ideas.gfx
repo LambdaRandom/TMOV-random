@@ -1,0 +1,23 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = GFX_kmt_second_expedition
+		texturefile = "gfx/interface/ideas/idea_chi_warlord_integration.dds"
+	}	
+
+	spriteType = {
+		name = GFX_kmt_chiang_plot
+		texturefile = "gfx/interface/ideas/idea_chi_wargaming_division.dds"
+	}	
+
+	spriteType = {
+		name = GFX_kmt_france_support
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}	
+
+	spriteType = {
+		name = GFX_kmt_soviet_support
+		texturefile = "gfx/interface/ideas/idea_generic_communist_army.dds"
+	}	
+
+}

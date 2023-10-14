@@ -1,0 +1,76 @@
+ideas = {
+    country = {
+
+        wjw_second_northern_expedition = {
+
+			picture = GFX_kmt_second_expedition
+
+			allowed = { tag = KMT }
+
+            available = {
+
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.65
+				army_defence_factor = 0.5
+                war_support_factor = 0.3
+        }
+        }
+
+        wjw_chiangist_plot = {
+
+			picture = GFX_kmt_chiang_plot
+
+			allowed = { tag = KMT }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.005
+        }
+        }
+
+        wjw_french_support = {
+
+			picture = GFX_kmt_france_support
+
+			allowed = { tag = KMT }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+        }
+        }
+
+        wjw_russian_support = {
+
+			picture = GFX_kmt_soviet_support
+
+			allowed = { tag = KMT }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_army_factor = 0.25
+                experience_gain_army = 0.05
+
+        }
+        }
+    }
+}

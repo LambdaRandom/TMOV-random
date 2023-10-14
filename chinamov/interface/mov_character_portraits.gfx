@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_wjw_mov"
+		texturefile = "gfx/leaders/KMT/portrait_wjw_mov.dds"
+	}
+	
+}
