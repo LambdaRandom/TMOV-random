@@ -887,3 +887,7 @@ JGN = {
 	color = rgb { 0 40 100 }
 	color_ui = rgb { 179 0 0 }
 }
+BEI = {
+	color = rgb { 255 227 107 }
+	color_ui = rgb { 179 0 0 }
+}

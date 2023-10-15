@@ -6,5 +6,10 @@ spriteTypes = {
 		name = "GFX_portrait_wjw_mov"
 		texturefile = "gfx/leaders/KMT/portrait_wjw_mov.dds"
 	}
+
+	spriteType = {
+		name = "GFX_BEI_yuan_keding"
+		texturefile = "gfx/leaders/BEI/GFX_BEI_yuan_keding.dds"
+	}
 	
 }
