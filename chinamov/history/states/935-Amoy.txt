@@ -1,0 +1,35 @@
+state={
+	id=935
+	name="STATE_935"
+
+	history={
+		owner = JGN
+		add_core_of = JGN
+		add_core_of = KMT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			7071 1 
+		}
+		
+
+	}
+
+	provinces={
+		7071 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=metropolis
+}
