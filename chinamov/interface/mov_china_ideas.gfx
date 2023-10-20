@@ -20,4 +20,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/kmt_soviet_support.dds"
 	}	
 
+
+
+
+
+	spriteType = {
+		name = GFX_idea_bei_international_recognition
+		texturefile = "gfx/interface/ideas/bei_international_recognition.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_bei_yellow_sand
+		texturefile = "gfx/interface/ideas/bei_yellow_sand.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_bei_inefficient_admin
+		texturefile = "gfx/interface/ideas/bei_inefficient_admin.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_bei_constitution
+		texturefile = "gfx/interface/ideas/bei_constitution.dds"
+	}		
+
 }

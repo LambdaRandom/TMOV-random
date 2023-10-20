@@ -1,0 +1,56 @@
+capital = 592
+
+set_stability = 0.75
+set_war_support = 0.75
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+recruit_character = KMT_wjw_mov
+
+set_convoys = 999
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 51
+	communism = 49
+	
+}
+
+add_ideas = {
+		wjw_second_northern_expedition
+		wjw_chiangist_plot
+		wjw_french_support
+		wjw_russian_support
+	}
+
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = BEI
+		type = annex_everything
+	}
+	set_autonomy = {
+		target = JGN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = HNN
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
+
+create_faction = National_Revolutionary_Government
+add_to_faction = KMT
+add_to_faction = JGN
+add_to_faction = HNN

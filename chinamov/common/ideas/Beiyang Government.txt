@@ -1,0 +1,96 @@
+ideas = {
+    country = {
+
+        bei_southern_insurrection = {
+
+
+			allowed = { tag = BEI }
+
+            available = {
+
+            }
+
+			removal_cost = -1
+			picture = kmt_second_expedition
+			modifier = {
+				army_attack_factor = -0.65
+				army_defence_factor = 0.5
+                war_support_factor = 0.3
+        }
+        }
+
+        bei_international_recognition = {
+
+			picture = bei_international_recognition
+
+			allowed = { tag = BEI }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.5
+                political_power_factor = 0.075
+                compliance_growth = 0.1
+
+        }
+        }
+
+        bei_yellow_sand = {
+
+
+			allowed = { tag = BEI }
+
+            available = {
+
+            }
+
+			removal_cost = -1
+			picture = bei_yellow_sand
+			modifier = {
+				war_support_factor = -0.15
+                resistance_target = 0.3
+        }
+        }
+
+        bei_inefficient_admin = {
+
+			picture = bei_inefficient_admin
+
+			allowed = { tag = BEI }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.3
+                consumer_goods_factor = 0.1
+        }
+        }
+
+        bei_constitution = {
+
+			picture = bei_constitution
+
+			allowed = { tag = BEI }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				political_advisor_cost_factor = -0.10
+                stability_factor = 0.1
+
+        }
+        }
+    }
+}

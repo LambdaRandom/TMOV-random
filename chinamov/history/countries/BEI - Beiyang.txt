@@ -23,6 +23,11 @@ set_popularities = {
 }
 
 add_ideas = {
+	bei_southern_insurrection
+	bei_international_recognition
+	bei_yellow_sand
+	bei_inefficient_admin
+	bei_constitution
 	}
 
 create_faction = Beiyang_Government
