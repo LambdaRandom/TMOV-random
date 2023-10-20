@@ -259,5 +259,9 @@ GRN = "countries/Greenland.txt"
 KMT = "countries/CantonGovernment.txt"
 JGN = "countries/Jiangnan.txt"
 BEI = "countries/Beiyang.txt"
+XIN = "countries/Xinjiang.txt"
+FNG = "countries/Fengtian.txt"
+ANH = "countries/Anhui.txt"
+HNN = "countries/Hunan.txt
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

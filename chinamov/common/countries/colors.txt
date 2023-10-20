@@ -238,7 +238,7 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 115 45}
+	color = rgb { 235 235 235}
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -889,5 +889,22 @@ JGN = {
 }
 BEI = {
 	color = rgb { 255 227 107 }
+	color_ui = rgb { 179 0 0 }
+}
+
+XIN = {
+	color = rgb { 255 227 107 }
+	color_ui = rgb { 179 0 0 }
+}
+FNG = {
+	color = rgb { 255 227 107 }
+	color_ui = rgb { 179 0 0 }
+}
+ANH = {
+	color = rgb { 255 227 107 }
+	color_ui = rgb { 179 0 0 }
+}
+HNN = {
+	color = rgb { 0 40 100 }
 	color_ui = rgb { 179 0 0 }
 }

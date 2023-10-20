@@ -1,0 +1,40 @@
+bookmarks = {
+	bookmark = {
+		name = "RIPPLES_OF_VERSAILLES_NAME"
+		desc = "RIPPLES_OF_VERSAILLES_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "KMT"
+		default = yes
+		
+		"KMT"={
+			history = "KMT_LOADING_DESC"
+			ideology = neutrality
+			ideas = {
+				wjw_second_northern_expedition
+				wjw_chiangist_plot
+				wjw_french_support
+			}
+			focuses = {
+				KMT_dark_night
+				KMT_revolution_place
+				KMT_have_gun
+			}
+		}
+		
+
+
+		# minors####
+		"BEI"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+	}
+}

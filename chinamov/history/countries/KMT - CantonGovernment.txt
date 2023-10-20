@@ -21,6 +21,7 @@ set_politics = {
 set_popularities = {
 	neutrality = 51
 	communism = 49
+	
 }
 
 add_ideas = {
@@ -29,3 +30,27 @@ add_ideas = {
 		wjw_french_support
 		wjw_russian_support
 	}
+
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = BEI
+		type = annex_everything
+	}
+	set_autonomy = {
+		target = JGN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = HNN
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
+
+create_faction = National_Revolutionary_Government
+add_to_faction = KMT
+add_to_faction = JGN
+add_to_faction = HNN

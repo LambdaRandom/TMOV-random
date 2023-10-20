@@ -12,4 +12,23 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEI/GFX_BEI_yuan_keding.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_tang_shengzhi"
+		texturefile = "gfx/leaders/JGN/GFX_portrait_tang_shengzhi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_XIN_yang_zengxin"
+		texturefile = "gfx/leaders/XIN/GFX_XIN_yang_zengxin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ANH_xu_shuzheng"
+		texturefile = "gfx/leaders/ANH/GFX_ANH_xu_shuzheng.dds"
+	}
+
+	spriteType = {
+		name = "GFX_FNG_zhang_zuolin"
+		texturefile = "gfx/leaders/FNG/GFX_FNG_zhang_zuolin.dds"
+	}
 }

@@ -24,3 +24,12 @@ set_popularities = {
 
 add_ideas = {
 	}
+
+create_faction = Beiyang_Government
+add_to_faction = BEI
+add_to_faction = ANH
+add_to_faction = FNG
+add_to_faction = XIN
+#add_to_faction = XSM
+#add_to_faction = SHD
+#add_to_faction = NGX

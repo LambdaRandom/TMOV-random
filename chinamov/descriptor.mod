@@ -7,5 +7,5 @@ tags={
 	"National Focuses"
 	"Map"
 }
-name="China Teasers"
-supported_version="1.13.3"
+name="March on Versailles"
+supported_version="1.13.4"
