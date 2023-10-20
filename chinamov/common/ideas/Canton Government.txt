@@ -3,7 +3,6 @@ ideas = {
 
         wjw_second_northern_expedition = {
 
-			picture = GFX_kmt_second_expedition
 
 			allowed = { tag = KMT }
 
@@ -12,7 +11,7 @@ ideas = {
             }
 
 			removal_cost = -1
-
+			picture = kmt_second_expedition
 			modifier = {
 				army_attack_factor = -0.65
 				army_defence_factor = 0.5
@@ -22,7 +21,7 @@ ideas = {
 
         wjw_chiangist_plot = {
 
-			picture = GFX_kmt_chiang_plot
+			picture = kmt_chiang_plot
 
 			allowed = { tag = KMT }
 
@@ -39,7 +38,7 @@ ideas = {
 
         wjw_french_support = {
 
-			picture = GFX_kmt_france_support
+			picture = kmt_france_support
 
 			allowed = { tag = KMT }
 
@@ -56,7 +55,7 @@ ideas = {
 
         wjw_russian_support = {
 
-			picture = GFX_kmt_soviet_support
+			picture = kmt_soviet_support
 
 			allowed = { tag = KMT }
 
