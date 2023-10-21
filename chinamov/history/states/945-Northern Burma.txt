@@ -1,0 +1,21 @@
+state={
+	id=945
+	name="STATE_945"
+	history={
+		add_core_of = YUN
+		owner = YUN
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+
+	}
+	provinces={
+		1197 1934 4318 4996 
+	}
+	manpower=30000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

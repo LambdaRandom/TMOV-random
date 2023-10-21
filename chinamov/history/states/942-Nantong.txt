@@ -1,0 +1,27 @@
+state={
+	id=942
+	name="STATE_942"
+	history={
+		owner = BEI
+		add_core_of = BEI
+		add_claim_by = KMT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11928 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+	provinces={
+		1089 4091 11928 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

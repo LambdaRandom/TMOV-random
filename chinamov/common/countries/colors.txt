@@ -897,12 +897,12 @@ XIN = {
 	color_ui = rgb { 179 0 0 }
 }
 FNG = {
-	color = rgb { 255 227 107 }
-	color_ui = rgb { 179 0 0 }
+	color = rgb { 155 115 33 }
+	color_ui = rgb { 189 113 33 }
 }
 ANH = {
-	color = rgb { 255 227 107 }
-	color_ui = rgb { 179 0 0 }
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
 }
 HNN = {
 	color = rgb { 0 40 100 }
@@ -911,4 +911,16 @@ HNN = {
 SQI = {
 	color = rgb { 255 227 107 }
 	color_ui = rgb { 179 0 0 }
+}
+SZC = {
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
+}
+NGX = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 179 0 0 }
+}
+YUN = {
+	color = rgb { 211 73 78 }
+	color_ui = rgb { 211 73 78 }
 }

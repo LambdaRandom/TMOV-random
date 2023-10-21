@@ -1,7 +1,7 @@
 
 state={
-	id=616
-	name="STATE_616"
+	id=756
+	name="STATE_756"
 
 	history={
 		owner = NGX
@@ -11,15 +11,12 @@ state={
 			infrastructure = 1
 
 		}
-		victory_points = {
-			8127 2 
-		}
 		1938.10.25 = {
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = Waking
-						the Tiger 
+						has_dlc = Waking the Tiger
+
 					}
 
 				}
@@ -35,10 +32,10 @@ state={
 	}
 
 	provinces={
-		5031 7511 8055 8127 10724 12750 12776 
+		4783 7727 7803 8102 10770 10899 
 	}
-	manpower=2077600
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 	local_supplies=0.000
 }
