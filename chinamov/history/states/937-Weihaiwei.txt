@@ -4,6 +4,7 @@ state={
 	history={
 		owner = JAP
 		add_claim_by = BEI
+		add_core_of = SQI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

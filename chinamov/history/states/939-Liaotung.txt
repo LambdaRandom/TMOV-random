@@ -1,31 +1,29 @@
 state={
-	id=938
-	name="STATE_938"
+	id=939
+	name="STATE_939"
 	history={
 		owner = JAP
+		add_core_of = FNG
 		add_claim_by = BEI
-		add_core_of = SQI
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			dockyard = 1
-			1104 = {
-				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
+			964 = {
+				naval_base = 3
 
 			}
 
 		}
 		victory_points = {
-			1104 1 
+			964 1 
 		}
+
 	}
 	provinces={
-		1104 
+		964 3783 6918 9854 
 	}
-	manpower=15000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category=metropolis
+	state_category=city
 }

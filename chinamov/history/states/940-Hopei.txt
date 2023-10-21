@@ -1,0 +1,22 @@
+state={
+	id=940
+	name="STATE_940"
+	provinces={
+		1084 7160 7189 9987 11933 11962 12093 
+	}
+	history={
+		owner = BEI
+		add_core_of = BEI
+		add_claim_by = KMT
+		
+		buildings = {
+			infrastructure = 1
+			}
+
+		}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}
+

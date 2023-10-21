@@ -10,6 +10,7 @@ state=
 	{
 		owner = JAP
 		add_claim_by = BEI
+		add_core_of = SQI
 		victory_points = {
 			10000 5 
 		}
