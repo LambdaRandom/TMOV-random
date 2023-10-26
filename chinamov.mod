@@ -9,4 +9,4 @@ tags={
 }
 name="China Teasers"
 supported_version="1.13.3"
-path="C:/Users/Neinguy1945/Documents/Paradox Interactive/Hearts of Iron IV/mod/chinamov"
+path="C:/Users/Oresp/Documents/GitHub/The-March-on-Versailles"
