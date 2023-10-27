@@ -19,3 +19,12 @@
  bei_inefficient_admin_desc:0 "Despite our best efforts, our control over certain regions remains tenuous at best. Unfortunately, our government is constantly criticized for perceived corruption and ineptitude."
  bei_constitution:0 "The Beiyang Constitution"
  bei_constitution_desc:0 "Our constitution guarantees peace, freedom, justice, and security to our Republic! Wan Sui!"
+
+ anh_far_away:0 "Nominal Allegiance to Peking"
+ anh_far_away_desc:0 "Heaven is high and the Emperor is far away. Peking's influence stops at the Great Wall."
+ anh_mongol_discontent:0 "Mongol Discontent"
+ anh_mongol_discontent_desc:0 "Our centralization and Han immigration policies are causing some backlash from the local population."
+ anh_agrarian_economy:0 "Agrarian Economy"
+ anh_agrarian_economy_desc:0 "While China struggles to adapt to the 20th century, Mongolia seems frozen in time by comparison. We must modernize the provinces if civilization will ever reach these lands."
+ anh_steppe_army:0 "Steppe Army"
+ anh_steppe_army_desc:0 "The Anhui army has adapted to hunting down Mongol rebels on the wide open plains, but not much else."

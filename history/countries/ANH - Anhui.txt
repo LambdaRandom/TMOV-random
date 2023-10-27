@@ -17,3 +17,10 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+add_ideas = {
+	anh_far_away
+	anh_mongol_discontent
+	anh_agrarian_economy
+	anh_steppe_army
+	}

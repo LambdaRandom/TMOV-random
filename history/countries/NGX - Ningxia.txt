@@ -17,3 +17,6 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_faction = Ma_Family
+add_to_faction = XSM

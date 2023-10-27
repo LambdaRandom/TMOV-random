@@ -42,6 +42,32 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_bei_constitution
 		texturefile = "gfx/interface/ideas/bei_constitution.dds"
+	}
+
+
+
+
+
+
+	spriteType = {
+		name = GFX_idea_anh_far_away
+		texturefile = "gfx/interface/ideas/anh_far_away.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_anh_mongol_discontent
+		texturefile = "gfx/interface/ideas/anh_mongol_discontent.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_anh_agrarian_economy
+		texturefile = "gfx/interface/ideas/anh_agrarian_economy.dds"
+	}	
+
+	spriteType = {
+		name = GFX_idea_anh_steppe_army
+		texturefile = "gfx/interface/ideas/anh_steppe_army.dds"
 	}		
+
 
 }

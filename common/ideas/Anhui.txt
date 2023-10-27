@@ -1,0 +1,76 @@
+ideas = {
+    country = {
+
+        anh_far_away = {
+
+
+			allowed = { tag = ANH }
+
+            available = {
+
+            }
+
+			removal_cost = -1
+			picture = anh_far_away
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+                ai_call_ally_desire_factor = -1000
+        }
+        }
+
+        anh_mongol_discontent = {
+
+			picture = anh_mongol_discontent
+
+			allowed = { tag = ANH }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.25
+                stability_factor = -0.1
+
+        }
+        }
+
+        anh_agrarian_economy = {
+
+
+			allowed = { tag = ANH }
+
+            available = {
+
+            }
+
+			removal_cost = -1
+			picture = anh_agrarian_economy
+			modifier = {
+				consumer_goods_factor = 0.1
+                production_speed_buildings_factor = -0.1
+        }
+        }
+
+        anh_steppe_army = {
+
+			picture = anh_steppe_army
+
+			allowed = { tag = ANH }
+
+            available = {
+                
+            }
+
+			removal_cost = -1
+
+			modifier = {
+				cavalry_attack_factor = 0.1
+                army_speed_factor = 0.05
+                resistance_growth = -0.2
+        }
+        }
+    }
+}
