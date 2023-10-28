@@ -37,6 +37,96 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/GFX_kmt_have_gun.dds"			
 	}
 
+
+
+	###ANH Focuses
+	SpriteType = {
+	name = "GFX_ANH_beijing_watch"
+	texturefile = "gfx/interface/goals/GFX_ANH_beijing_watch.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_maintain_independence"
+	texturefile = "gfx/interface/goals/GFX_ANH_maintain_independence.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_cross_great_wall"
+	texturefile = "gfx/interface/goals/GFX_ANH_cross_great_wall.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_establish_rival_government"
+	texturefile = "gfx/interface/goals/GFX_ANH_establish_rival_government.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_diplomatic_overtures"
+	texturefile = "gfx/interface/goals/GFX_ANH_diplomatic_overtures.dds"			
+	}
+
+
+
+	SpriteType = {
+	name = "GFX_ANH_continue_modernization"
+	texturefile = "gfx/interface/goals/GFX_ANH_continue_modernization.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_purchase_modern_weapons"
+	texturefile = "gfx/interface/goals/GFX_ANH_purchase_modern_weapons.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_encourage_han_immigration"
+	texturefile = "gfx/interface/goals/GFX_ANH_encourage_han_immigration.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_tribe_concessions"
+	texturefile = "gfx/interface/goals/GFX_ANH_tribe_concessions.dds"			
+	}
+
+
+
+	SpriteType = {
+	name = "GFX_ANH_reaffirm_loyalty"
+	texturefile = "gfx/interface/goals/GFX_ANH_reaffirm_loyalty.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_defend_beiyang"
+	texturefile = "gfx/interface/goals/GFX_ANH_defend_beiyang.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_ANH_pacified_north"
+	texturefile = "gfx/interface/goals/GFX_ANH_pacified_north.dds"			
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
