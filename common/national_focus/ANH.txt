@@ -1,0 +1,435 @@
+focus_tree = {
+	id = anh_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ANH
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1650 }
+
+
+	###############################
+	##### Starting Tree ######
+	###############################
+
+	focus = {
+		id = ANH_beijing_watch
+		icon = GFX_ANH_beijing_watch
+		x = 5
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+focus = {
+		id = ANH_maintain_independence
+		icon = GFX_ANH_maintain_independence
+		x = -3
+		y = 1
+
+		relative_position_id = ANH_beijing_watch
+		prerequisite = { focus = ANH_beijing_watch }
+		mutually_exclusive = {focus = ANH_reaffirm_loyalty}
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			leave_faction = yes
+		}
+	}
+
+focus = {
+		id = ANH_cross_great_wall
+		icon = GFX_ANH_cross_great_wall
+		x = 0
+		y = 1
+
+		relative_position_id = ANH_maintain_independence
+		prerequisite = { focus = ANH_maintain_independence }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = BEI }
+		}
+	}
+
+focus = {
+		id = ANH_diplomatic_overtures
+		icon = GFX_ANH_diplomatic_overtures
+		x = -1
+		y = 1
+
+		relative_position_id = ANH_cross_great_wall
+		prerequisite = { focus = ANH_cross_great_wall }
+		mutually_exclusive = { focus = ANH_establish_rival_government }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+focus = {
+		id = ANH_establish_rival_government
+		icon = GFX_ANH_establish_rival_government
+		x = 1
+		y = 1
+
+		relative_position_id = ANH_cross_great_wall
+		prerequisite = { focus = ANH_cross_great_wall }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+focus = {
+		id = ANH_continue_modernization
+		icon = GFX_ANH_continue_modernization
+		x = 0
+		y = 2
+
+		relative_position_id = ANH_beijing_watch
+		prerequisite = { focus = ANH_beijing_watch }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+}
+		
+	}
+
+focus = {
+		id = ANH_purchase_modern_weapons
+		icon = GFX_ANH_purchase_modern_weapons
+		x = 0
+		y = 1
+
+		relative_position_id = ANH_continue_modernization
+		prerequisite = { focus = ANH_continue_modernization }
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+    			type = infantry_equipment_0
+    			amount = 1500
+		}
+	}
+}
+
+focus = {
+		id = ANH_encourage_han_immigration
+		icon = GFX_ANH_encourage_han_immigration
+		x = -1
+		y = 1
+
+		relative_position_id = ANH_purchase_modern_weapons
+		prerequisite = { focus = ANH_purchase_modern_weapons}
+		mutually_exclusive = {focus = ANH_tribe_concessions }
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+		
+	}
+}
+
+focus = {
+		id = ANH_tribe_concessions
+		icon = GFX_ANH_tribe_concessions
+		x = 1
+		y = 1
+
+		relative_position_id = ANH_purchase_modern_weapons
+		prerequisite = { focus = ANH_purchase_modern_weapons}
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+		
+	}
+}
+
+focus = {
+		id = ANH_reaffirm_loyalty
+		icon = GFX_ANH_reaffirm_loyalty
+		x = 3
+		y = 1
+
+		relative_position_id = ANH_beijing_watch
+		prerequisite = { focus = ANH_beijing_watch}
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+	}
+}
+
+focus = {
+		id = ANH_defend_beiyang
+		icon = GFX_ANH_defend_beiyang
+		x = 0
+		y = 1
+
+		relative_position_id = ANH_reaffirm_loyalty
+		prerequisite = { focus = ANH_reaffirm_loyalty}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+	}
+}
+
+focus = {
+		id = ANH_pacified_north
+		icon = GFX_ANH_pacified_north
+		x = 0
+		y = 1
+
+		relative_position_id = ANH_defend_beiyang
+		prerequisite = { focus = ANH_defend_beiyang}
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+
+		completion_reward = {
+			add_political_power = 1
+	}
+}
+}
