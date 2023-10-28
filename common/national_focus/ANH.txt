@@ -361,7 +361,11 @@ focus = {
 
 
 		completion_reward = {
-			add_political_power = 1
+			remove_ideas = anh_far_away
+			add_opinion_modifier = {
+    		target = BEI
+    		modifier = reaffirm_loyalty
+}
 	}
 }
 
