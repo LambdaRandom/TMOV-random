@@ -50,7 +50,7 @@ focus_tree = {
 		}
 	}
 
-focus = {
+	focus = {
 		id = ANH_maintain_independence
 		icon = GFX_ANH_maintain_independence
 		x = -3
@@ -82,10 +82,11 @@ focus = {
 
 		completion_reward = {
 			leave_faction = yes
+			remove_ideas = anh_far_away
 		}
 	}
 
-focus = {
+	focus = {
 		id = ANH_cross_great_wall
 		icon = GFX_ANH_cross_great_wall
 		x = 0
@@ -116,10 +117,12 @@ focus = {
 
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = BEI }
+			add_war_support = 0.05
+			add_stability = 0.05
 		}
 	}
 
-focus = {
+	focus = {
 		id = ANH_diplomatic_overtures
 		icon = GFX_ANH_diplomatic_overtures
 		x = -1
@@ -154,7 +157,7 @@ focus = {
 		}
 	}
 
-focus = {
+	focus = {
 		id = ANH_establish_rival_government
 		icon = GFX_ANH_establish_rival_government
 		x = 1
@@ -162,6 +165,7 @@ focus = {
 
 		relative_position_id = ANH_cross_great_wall
 		prerequisite = { focus = ANH_cross_great_wall }
+		mutually_exclusive = {focus = ANH_diplomatic_overtures}
 
 		cost = 5
 
@@ -184,11 +188,13 @@ focus = {
 
 
 		completion_reward = {
-			add_political_power = 1
+			create_faction = wan_government
+			add_political_power = 150
+			add_stability = 0.05
 		}
 	}
 
-focus = {
+	focus = {
 		id = ANH_continue_modernization
 		icon = GFX_ANH_continue_modernization
 		x = 0
@@ -223,7 +229,7 @@ focus = {
 		
 	}
 
-focus = {
+	focus = {
 		id = ANH_purchase_modern_weapons
 		icon = GFX_ANH_purchase_modern_weapons
 		x = 0
@@ -260,7 +266,7 @@ focus = {
 	}
 }
 
-focus = {
+	focus = {
 		id = ANH_encourage_han_immigration
 		icon = GFX_ANH_encourage_han_immigration
 		x = -1
@@ -296,7 +302,7 @@ focus = {
 	}
 }
 
-focus = {
+	focus = {
 		id = ANH_tribe_concessions
 		icon = GFX_ANH_tribe_concessions
 		x = 1
@@ -304,6 +310,7 @@ focus = {
 
 		relative_position_id = ANH_purchase_modern_weapons
 		prerequisite = { focus = ANH_purchase_modern_weapons}
+		mutually_exclusive = {focus = ANH_encourage_han_immigration}
 
 		cost = 6
 
@@ -331,7 +338,7 @@ focus = {
 	}
 }
 
-focus = {
+	focus = {
 		id = ANH_reaffirm_loyalty
 		icon = GFX_ANH_reaffirm_loyalty
 		x = 3
@@ -339,6 +346,7 @@ focus = {
 
 		relative_position_id = ANH_beijing_watch
 		prerequisite = { focus = ANH_beijing_watch}
+		mutually_exclusive = {focus = ANH_maintain_independence}
 
 		cost = 5
 
@@ -369,7 +377,7 @@ focus = {
 	}
 }
 
-focus = {
+	focus = {
 		id = ANH_defend_beiyang
 		icon = GFX_ANH_defend_beiyang
 		x = 0
@@ -399,9 +407,13 @@ focus = {
 
 
 		completion_reward = {
-			add_political_power = 1
+			add_war_support = 0.1
+			add_command_power = 50
+			create_wargoal = { type = annex_everything target = KMT }
+		}
+
 	}
-}
+
 
 focus = {
 		id = ANH_pacified_north
@@ -419,6 +431,8 @@ focus = {
 		}
 
 		available = {
+			country_exists = BEI
+			has_war = no
 
 		}
 
@@ -436,4 +450,7 @@ focus = {
 			add_political_power = 1
 	}
 }
+
 }
+
+

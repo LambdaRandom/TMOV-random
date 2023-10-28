@@ -14,11 +14,28 @@ bookmarks = {
 				wjw_second_northern_expedition
 				wjw_chiangist_plot
 				wjw_french_support
+				wjw_russian_support
 			}
 			focuses = {
 				KMT_dark_night
 				KMT_revolution_place
 				KMT_have_gun
+			}
+		}
+
+		"ANH"={
+			history = "ANH_LOADING_DESC"
+			ideology = neutrality
+			ideas = {
+				anh_far_away
+				anh_mongol_discontent
+				anh_agrarian_economy
+				anh_steppe_army
+			}
+			focuses = {
+				ANH_establish_rival_government
+				ANH_encourage_han_immigration
+				ANH_reaffirm_loyalty
 			}
 		}
 		
