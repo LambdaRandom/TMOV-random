@@ -1,0 +1,40 @@
+﻿
+division_template = {
+	name = "Don Trú"
+	division_names_group = VIN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = {
+		name = "Don trú Da Nang"	
+		location = 10137
+		division_template = "Don Trú"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VIN"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
