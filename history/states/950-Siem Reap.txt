@@ -1,0 +1,20 @@
+state={
+	id=950
+	name="STATE_950"
+	history={
+		add_core_of = CAM
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1353 1620 4251 4302 4359 4596 5236 7404 7645 10134 10177 10467 12167 12191 12447 12460 
+	}
+	manpower=1141000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
