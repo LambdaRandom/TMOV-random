@@ -58,6 +58,39 @@
  TNK_neutrality_ADJ:0 "Tonkin"
  TNK_communism_ADJ:0 "Tonkin"
 
+
+
+ RHI_fascism:0 "Rhenish State"
+ RHI_fascism_DEF:0 "the Rhenish State"
+ RHI_democratic:0 "Rhenish Republic"
+ RHI_democratic_DEF:0 "the Rhenish Republic"
+ RHI_communism:0 "People's Republic of the Rhine"
+ RHI_communism_DEF:0 "the People's Republic of the Rhine"
+ RHI_neutrality:0 "Rhineland"
+ RHI_neutrality_DEF:0 "the Rhineland"
+ RHI_democratic_ADJ:0 "Rhenish"
+ RHI_communism_ADJ:0 "Rhenish"
+ RHI_neutrality_ADJ:0 "Rhenish"
+ RHI_subject_ADJ:0 "Rhenish"
+
+ ENK_fascism:0 "Enkaishan Empire"
+ ENK_fascism_DEF:0 "the Enkaishan Empire"
+ ENK_democratic:0 "Enkaishan Republic"
+ ENK_democratic_DEF:0 "the Enkaishan Republic"
+ ENK_communism:0 "Commune of Enkaishu"
+ ENK_communism_DEF:0 "the Commune of Enkaishu"
+ ENK_neutrality:0 "Enkaishu"
+ ENK_neutrality_DEF:0 "Enkaishu"
+ ENK_democratic_ADJ:0 "Enkaishan"
+ ENK_communism_ADJ:0 "Enkaishan"
+ ENK_neutrality_ADJ:0 "Enkaishan"
+ ENK_subject_ADJ:0 "Enkaishan"
+ ENK_JAP_fascism_subject:0 "Imperial Protectorate of Enkaishu"
+ ENK_JAP_fascism_subject_DEF:0 "the Imperial Protectorate of Enkaishu"
+ ENK_JAP_fascism_subject_ADJ:0 "Enkaishan"
+
+
+
  GER_fascism:0 "German Republic"
  GER_fascism_DEF:0 "the German Republic"
  GER_democratic:0 "German Republic"

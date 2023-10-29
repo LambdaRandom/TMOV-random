@@ -269,5 +269,7 @@ NGX = "countries/Ningxia.txt"
 CCC = "countries/Cochinchina.txt"
 TNK = "countries/Tonkin.txt"
 ANN = "countries/Annam.txt"
+RHI = countries/Rhineland.txt
+ENK = countries/Enkaishu.txt
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

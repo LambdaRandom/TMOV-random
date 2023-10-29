@@ -936,3 +936,12 @@ TNK = {
 	color = rgb { 70 122 235 }
 	color_ui = rgb { 70 122 235 }
 }
+RHI = {
+	color = rgb { 113 163 117 }
+	color_ui = rgb { 113 163 117 }
+}
+
+ENK = {
+	color = hsv { 0 0.2 1 }
+	color_ui = hsv { 0 0.2 1 }
+}
