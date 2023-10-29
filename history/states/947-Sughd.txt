@@ -1,0 +1,28 @@
+state={
+	id=947
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = TAJ
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 0
+			air_base = 0
+
+		}
+		victory_points = {
+			10187 1 
+		}
+		
+	}
+
+	name="STATE_947"
+	provinces={
+		10187 12430
+	}
+	manpower=37399
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

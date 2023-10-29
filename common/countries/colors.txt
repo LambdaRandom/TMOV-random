@@ -796,12 +796,12 @@ BSK = {
 	color_ui = rgb { 36 143 36 }
 }
 BUK = {
-	color = rgb { 204 153 102 }
-	color_ui = rgb { 172 115 57 }
+	color = rgb { 30 120 29 }
+	color_ui = rgb { 30 120 29 }
 }
 KHI = {
-	color = rgb { 51 204 255 }
-	color_ui = rgb { 0 134 179 }
+	color = rgb { 173 156 106 }
+	color_ui = rgb { 173 156 106 }
 }
 UDM = {
 	color = rgb { 64 64 64 }
@@ -923,4 +923,16 @@ NGX = {
 YUN = {
 	color = rgb { 211 73 78 }
 	color_ui = rgb { 211 73 78 }
+}
+CCC = {
+	color = rgb { 84 134 235 }
+	color_ui = rgb { 84 134 235 }
+}
+ANN = {
+	color = rgb { 97 154 235 }
+	color_ui = rgb { 97 154 235 }
+}
+TNK = {
+	color = rgb { 70 122 235 }
+	color_ui = rgb { 70 122 235 }
 }
